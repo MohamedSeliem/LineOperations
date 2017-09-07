@@ -1,0 +1,5 @@
+In the above 'run_program' represents the command given to run your Java program.
+The command line arguments are given in the same line.
+The arguments 'wc', 'grep', and 'freq' are fixed, and given as is.
+The argument 'filename.txt' is to be replaced by the name of a file.
+And the argument 'word' is replaced by a word to be searched.

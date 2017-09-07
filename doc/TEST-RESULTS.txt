@@ -1,0 +1,18 @@
+I made 3 unit test cases as below, then gathered them all in one suite case:
+
+1- Command Translator test that tests the main function to ensure that the program work properly.
+
+Result: the test run without error
+
+2- Line operation test case:
+I used mock object to implement strategy interface to be able to test the lineoperations class independently.
+
+First, i tested the function perform operation which is used to read line from the given file and then pass it to the required class, mocked strategy, (wc, grep, freq).
+
+Second, i tested the function change strategy to make sure that the super class (Line operations) can switch between strategy smoothly. 
+
+Result: the test run without any errors.
+
+3- In order to test the strategy classes, i made test that converts a string to an input stream, so i can use it to read from a string rather than reading from a file.
+
+Result: the test run without any errors. 
